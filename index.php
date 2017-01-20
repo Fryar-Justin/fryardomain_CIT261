@@ -49,7 +49,7 @@
 </script>	
 </head>
 <body>
-<h1>Can you Math? WHAT THE HECK</h1>
+<h1>Can you Math? THIS IS AMAZING!!!!!!</h1>
 <div>In the 2nd input box put either + , - , * , or /</div>
 <input type='number' id='a' value=5>
 <input type='text' id='b' value="+">
