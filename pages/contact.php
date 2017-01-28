@@ -14,8 +14,7 @@
                 <?php include $_SERVER['DOCUMENT_ROOT'].'/modules/navigation.php'; ?>
             </div>
             <div class="rightContent">
-                <p><h1>Thanks for visiting my website. Please select a topic category 
-                    on the left to see demonstrations of the coding topics.</h1></p>
+                <p><h1>fry06001@byui.edu</h1></p>
                 <div><img src="/resources/codecode.jpg"></img></div>
             </div>
         </main>
