@@ -4,5 +4,5 @@
     <link href="/CSS/styling.css" type="text/css" rel="stylesheet" media="screen">
     
     <script>
-        <?php include $_SERVER['DOCUMENT_ROOT'].'/modules/javascript/script.php'; ?>
+        
     </script>

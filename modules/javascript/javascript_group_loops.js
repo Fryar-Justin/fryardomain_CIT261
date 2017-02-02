@@ -182,7 +182,7 @@ function associativeArray() {
         finish:"Leather",
     }
     
-    document.getElementById('associativeArrayOutput').innerHTML = durango[input];
+    document.getElementById('associativeArrayOutput').innerHTML = durango[make];
 }
 
 function clearAssociativeArrayEx() {

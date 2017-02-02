@@ -4,7 +4,9 @@
     <head>
         <title>CIT261:03</title>
         <?php include $_SERVER['DOCUMENT_ROOT'].'/modules/head.php'; ?>
-        <script><?php include $_SERVER['DOCUMENT_ROOT'].'/modules/javascript/javascript_group_loops.js'; ?></script>
+        <script>
+            <?php include $_SERVER['DOCUMENT_ROOT'].'/modules/javascript/javascript_group_loops.js'; ?>
+        </script>
     </head>
     <body>
         <header>
