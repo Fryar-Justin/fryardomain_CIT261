@@ -60,26 +60,40 @@ function whileDoLoop(){
 
 //Conditional statements Example
 function runConditionalStatements() {
+    var familyMembers = {
+        ryan:"Ryan is the oldest brother in my family and \n\
+              is a Arts Professor in Pennsylvania",
+        jared:"Jared is the second oldest in my family and\n\
+               is a Mechanical Engineer",
+        ben:"Ben is the third oldest in my family and is a\n\
+             curriculum developer at BYUI",
+        megan:"Megan is the fourth oldest in my family and\n\
+               is a Clinical Psychologist",
+        seth:"Seth is the fifth oldest in my family and is\n\
+              a certified CPA",
+        justin:"I am the youngest in my family and will\n\
+                graduate in 1 year as a Software Engineer"
+    };
     var input = document.getElementById("conditionalInput").value;
-    var output = input;
+    var output;
     
     if(input == "Ryan" || input == "ryan") {
-        output = "Ryan is the oldest brother in my family and is a Arts Professor in Pennsylvania";
+        output = familyMembers.ryan;
     }
     else if(input == "Jared" || input == "jared") {
-        output = "Jared is the second oldest in my family and is a Mechanical Engineer";
+        output = familyMembers.jared;
     }
     else if(input == "Ben" || input == "ben") {
-        output = "Ben is the third oldest in my family and is a curriculum developer at BYUI";
+        output = familyMembers.ben;
     }
     else if(input == "Megan" || input == "megan") {
-        output = "Megan is the fourth oldest in my family and is a Clinical Psychologist";
+        output = familyMembers.megan;
     }
     else if(input == "Seth" || input == "seth") {
-        output = "Seth is the fifth oldest in my family and is a certified CPA";
+        output = familyMembers.seth;
     }
     else if(input == "Justin" || input == "justin") {
-        output = "I am the youngest in my family and will graduate in 1 year as a Software Engineer";
+        output = familyMembers.justin;
     }
     else output = "That is not in the list, please try again!";
     
@@ -182,7 +196,7 @@ function associativeArray() {
         finish:"Leather",
     }
     
-    document.getElementById('associativeArrayOutput').innerHTML = durango[make];
+    document.getElementById('associativeArrayOutput').innerHTML = durango[input];
 }
 
 function clearAssociativeArrayEx() {

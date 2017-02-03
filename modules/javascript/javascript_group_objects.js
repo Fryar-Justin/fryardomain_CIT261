@@ -89,6 +89,7 @@ function main() {
     } else if (action == 'rollWindowsDown') {
         myCar.rollWindowsDown();
     }
+
 }
 
 /*************************************************************************
@@ -108,14 +109,14 @@ function inheritance() {
     // override car object to output to appropriate div tag
     newInstance.displayStatus = function() {
         document.getElementById('output2').innerHTML =
-                'Make: ' + this.make + '<br>'
+                  'Make: '  + this.make + '<br>'
                 + 'Model: ' + this.model + '<br>'
                 + 'Color: ' + this.color + '<br>'
                 + 'Gas Tank: ' + this.gasTank + '%<br>'
                 + 'Nos Tank: ' + this.nosTank + '%<br>'
-                + 'You have filled the tank: ' + this.gasFillCounter + ' times<br>'
+                + 'You have filled the tank: '     + this.gasFillCounter + ' times<br>'
                 + 'You have filled the NOS tank: ' + this.nosFillCounter + ' times<br>'
-                + 'The windows are currently: ' + this.windows + '<br>'
+                + 'The windows are currently: '    + this.windows + '<br>'
                 + 'You are traveling at: ' + this.speed + ' MPH!';
     }
     newInstance.displayStatus()

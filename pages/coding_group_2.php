@@ -28,10 +28,14 @@
                             <option>Dodge</option>
                             <option>Chevy</option>
                             <option>Ford</option>
-                            <option>Lamborghini</option>
-                            <option>Porsche</option>
                         </select>
-                        <input id="model" placeholder="Enter Make">
+                        <select id="model">
+                            <option>Tacoma</option>
+                            <option>Odyssey</option>
+                            <option>Durango</option>
+                            <option>Malibu</option>
+                            <option>F-150</option>
+                        </select>
                         <select id='color'>
                             <option>Red</option>
                             <option>Blue</option>
@@ -52,9 +56,10 @@
                         <option value='rollWindowsDown'>Roll the windows down</option>
                     </select>
 
-                    <button type="button" onclick="main()">Perform Action</button>
+                    <button type="button" onclick="makeCar(), main()">Perform Action</button>
                     <button type="button" onclick ="resetAll()">Destroy Car!</button><br>
                     <div id='output1'></div>
+                    
                     <!--Inheritance-->
                     <h1>Inheritance</h1><hr>
                     <h2>This program will demonstrate inheritance</h2>
