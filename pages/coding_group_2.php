@@ -56,7 +56,7 @@
                         <option value='rollWindowsDown'>Roll the windows down</option>
                     </select>
 
-                    <button type="button" onclick="makeCar(), main()">Perform Action</button>
+                    <button type="button" onclick="main()">Perform Action</button>
                     <button type="button" onclick ="resetAll()">Destroy Car!</button><br>
                     <div id='output1'></div>
                     
