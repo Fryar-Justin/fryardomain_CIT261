@@ -60,6 +60,7 @@
             </div>
         </main>
         <footer>
+            <!--This is a test-->
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/footer.php'; ?>
         </footer>
     </body>

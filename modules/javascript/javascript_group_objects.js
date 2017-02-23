@@ -1,5 +1,5 @@
 /*************************************************************************
- * Object Creation Functions, Properties, Methods, Instantiation
+ * Object Creation Functions, Properties, Methods, Instantiationd
  *************************************************************************/
 function car(make, model, color) {
     this.make = make;

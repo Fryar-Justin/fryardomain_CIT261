@@ -78,7 +78,7 @@ function showList() {
         + "Notes: " + shoppingList.notes + "<br><br><br>You can add to this list "
         + "if you want. Just be sure to save it.";
 }
-//s
+
 function deleteSave(){
     // Remove values from the array
     shoppingList.items = 0;
