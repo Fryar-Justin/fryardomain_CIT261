@@ -28,8 +28,9 @@
                 <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/navigation.php'; ?>
             </div>
             <div class="rightContent">
-                <h1 id="h1">Lets try changing some of the styles on this page!</h1>
-                <h2 id="h2">Select the part of the document you'd like to modify and then push the button</h2>
+                <h1 id="h1">Manipulating CSS Class Properties Using JavaScript</h1>
+                <hr>
+                <h2 id="h2">Lets try changing some of the styles on this page!</h2>
 
                 <div id="buttons" style="width:200px;height:auto;margin-left:auto;margin-right:auto;">
                     <button type="button" onclick="headingColor()">Change Heading Color</button>

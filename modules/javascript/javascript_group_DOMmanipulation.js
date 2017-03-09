@@ -126,7 +126,7 @@ function createQuestions() {
                 + "Are you in school: " + responses.school + "<br>"
                 + "Your ideal adventure: " + responses.adventure + "<br>"
                 + "Your favorite vacation spot: " + responses.vacation + "<br>"
-                + "Your favorite color: " + responses.vacation + "<br>";
+                + "Your favorite color: " + responses.color + "<br>";
 
         // Enter into text node
         var node = document.createTextNode(message);
