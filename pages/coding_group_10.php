@@ -24,7 +24,7 @@
                 <h2>Video Tags:</h2>
                 <p>This is a game I am really looking forward to</p>
 <!--******************************************************************************************************************************************-->
-<!--*           <!--Found that using these video tags causes a lot of lag due to the video file needing to be downloaded                    *-->                 
+<!--*           <!--Found that using these video tags causes a lot of lag due to the video file needing to be downloaded                     *-->                 
 <!--*           <!--<video width="95%" controls>                                                                                             *-->   
 <!--*                <source src="/media/StarCitizenTrailer.mp4" type="video/mp4">                                                           *-->
 <!--*           </video>                                                                                                                     *-->

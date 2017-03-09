@@ -165,7 +165,7 @@ var looked = false;
                                "Left-Eye-Coordinates: "  + xLE + " x " + y
                     + "<br>" + "Right-Eye-Coordinates: " + xRE + " x " + y
                     + "<br>" + "Frame: " + counter + " of " + limit
-                    + "<br><br>" + "<b>You might not get anything for chirstmas now :(</b>";
+                    + "<br><br>" + "<b>You might not get anything for Christmas now :(</b>";
         }
     }
 
