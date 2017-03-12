@@ -4,11 +4,12 @@
     <head>
         <title>CIT261:03</title>
         <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/head.php'; ?>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
         <script>
             <?php include $_SERVER['DOCUMENT_ROOT'].'/modules/javascript/javascript_group_AJAX.js'; ?>
         </script>
     </head>
-    <body onload="process()">
+    <body>
         <header>
             <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/header.php'; ?>
         </header>
@@ -46,8 +47,17 @@
                         <option>Nintendo Switch</option>
                         <option>PC</option>
                     </select>
+                    <button type="button" onclick="process()">Check</button>
                 </div>
                 <div id="inventoryOutput"></div>
+                <p>
+                <h2>Consuming A Web Service:</h2>
+                <h3>Nasa API:</h3>
+                    <img id="apod_img_id" width="250px"/>
+                    <p id="copyright"></p>
+                    <h3 id="apod_title"></h3>
+                    <p id="apod_explaination"></p>
+                </p>
             </div>
         </main>
         <footer>

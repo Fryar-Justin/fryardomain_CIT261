@@ -1,3 +1,29 @@
+// Consume a JSON Web Service
+var url = "https://api.nasa.gov/planetary/apod?api_key=pfmSUPngawjR1eTE1bkg9AZa9XZvFsifpJvpKM4b";
+$.ajax({
+    url: url,
+    success: function (result) {
+        if ("copyright" in result) {
+            $("#copyright").text("Image Credits: " + result.copyright);
+        } else {
+            $("#copyright").text("Image Credits: " + "Public Domain");
+        }
+
+        if (result.media_type == "video") {
+            $("#apod_img_id").css("display", "none");
+            $("#apod_vid_id").attr("src", result.url);
+        } else {
+            $("#apod_vid_id").css("display", "none");
+            $("#apod_img_id").attr("src", result.url);
+        }
+        $("#reqObject").text(url);
+        $("#returnObject").text(JSON.stringify(result, null, 4));
+        $("#apod_explaination").text(result.explanation);
+        $("#apod_title").text(result.title);
+    }
+});
+
+
 // Create new AJAX object
 var xhttp = new XMLHttpRequest();
 
@@ -36,7 +62,6 @@ function handleManualObjectResponse(response){
 }
 
 function process(){
-// Dynamic example using AJAX (process & handleServerResponse)
 // If connection status is "ready" attempt connection
     if (xhttp.readyState == 0 || xhttp.readyState == 4){
     // Encode the user input into valid PHP syntax
@@ -49,9 +74,6 @@ function process(){
         xhttp.onreadystatechange = handleServerResponse;
     // Attempt connection with server
         xhttp.send();
-    } else {
-    // Repeat connection attempt every second
-        setTimeout('process()', 1000);
     }
 }
 
